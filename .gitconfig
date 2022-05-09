@@ -4,5 +4,3 @@
 	name = Osvald
 	email = thorin.tammiskilp@gmail.com
 	signingkey = C90911BAC050CFA6
-[commit]
-	gpgsign = true
