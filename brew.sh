@@ -10,7 +10,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install arduino discord iterm2 malwarebytes messenger obs rectangle spotify surfshark qbittorrent tidal visual-studio-code vlc zoom zotero
 
 # install formulae
-brew install bat cowsay fortune htop lolcat ncdu neofetch python ranger speedtest-cli task
+brew install bat cowsay fortune htop lolcat ncdu neofetch python ranger speedtest-cli task zsh-autosuggestions zsh-syntax-highlighting
 
 # install powerlevel10k for zsh
 brew install romkatv/powerlevel10k/powerlevel10k
