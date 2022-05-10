@@ -173,11 +173,9 @@ sudo chflags nohidden /Volumes
 #[ -e "${file}" ] && mv -f "${file}" "${file}.bak"
 
 # Expand the following File Info panes:
-# “General”, “Open with”, and “Sharing & Permissions”
+# “General”
 defaults write com.apple.finder FXInfoPanesExpanded -dict \
-	General -bool true \
-	OpenWith -bool true \
-	Privileges -bool true
+	General -bool true
 
 ###############################################################################
 # Dock, Dashboard, and hot corners                                            #
