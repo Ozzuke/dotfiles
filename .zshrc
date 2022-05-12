@@ -14,9 +14,6 @@ alias la='ls -lA --color=auto'
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
-# configure
-CASE_SENSITIVE="true"
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
