@@ -28,4 +28,10 @@ echo "source ~/.zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh-syntax-highlighting
 echo "source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
+# set wallpaper
+## LXQT
+if [ -f "/usr/bin/pcmanfm-qt" ]; then
+	pcmanfm-qt --set-wallpaper="~/.dotfiles/wallpapers/cloudy-digital-art-landscape.jpeg"
+fi
+
 chsh -s /usr/bin/zsh
