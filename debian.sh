@@ -22,7 +22,10 @@ mkdir -p $HOME/.config/kitty
 echo "font_family MesloLGS NF" >> $HOME/.config/kitty/kitty.conf
 
 # set zsh aliases
-echo "alias rr=ranger \nalias rd='source ranger' \nalias py=python3 \nalias la='ls -lA --color'" >> $HOME/.zshrc
+echo "alias rr='ranger'" >> $HOME/.zshrc
+echo "alias rd='source ranger'" >> $HOME/.zshrc
+echo "alias py='python3'" >> $HOME/.zshrc
+echo "alias la='ls -lA --color'" >> $HOME/.zshrc
 
 # install zsh plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.zsh-autosuggestions
