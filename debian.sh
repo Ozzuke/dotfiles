@@ -1,6 +1,8 @@
+#!/usr/bin/env bash
+
 sudo apt update && sudo apt upgrade
 
-sudo apt install kitty zsh ranger
+sudo apt install kitty zsh ranger curl
 
 ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
 
