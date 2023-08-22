@@ -9,7 +9,9 @@ fi
 alias rr=ranger
 alias rd='source ranger'
 alias py=python3
+alias python=python3
 alias la='ls -lA --color=auto'
+alias ipy=ipython
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme

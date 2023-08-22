@@ -3,3 +3,5 @@
 # Please adapt and uncomment the following lines:
 	name = Osvald
 	email = thorin.tammiskilp@gmail.com
+[credential]
+	helper = osxkeychain
