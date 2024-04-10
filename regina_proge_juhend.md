@@ -13,7 +13,7 @@ Siis vaja luua funktsiooni sisu. vaja luua muutuja või mitu muutujat ja argumen
 ```
 - näiteks
 ```python
-	kehamassi_indeks = (pikkus_cm-100)**2 / kaal
+	kehamassi_indeks = kaal / ((pikkus_cm / 100) ** 2)
 ```
  
 - võib olla vaja ümardada
@@ -108,7 +108,7 @@ Vaja väljastada arvutatud tulemus ja kui tingimus kehtib, siis lisada midagi ve
 ``` 
 - võib olla vaja suurendada lugejat, mis loeb, kui mitu mõõtmist vastas tingimusele (näiteks oli liiga madal)
 ```python
-		madalate_mõõtmiste_lugeja = madalate_mõõtmiste_lugeja + 1
+		madalate_kaalumiste_lugeja = madalate_kaalumiste_lugeja + 1
 ``` 
 - võib olla vaja mõõtmine lisada järjendisse, mis salvestab ainult tingimusele vastavad mõõtmised
 ```python
@@ -151,7 +151,7 @@ Vaja väljastada arvutatud tulemus ja kui tingimus kehtib, siis lisada midagi ve
 ```
 - võib olla vaja suurendada lugejat, mis loeb, kui mitu mõõtmist vastas tingimusele (näiteks oli liiga madal)
 ```python
-        madalate_mõõtmiste_lugeja = madalate_mõõtmiste_lugeja + 1
+        madalate_kaalumiste_lugeja = madalate_kaalumiste_lugeja + 1
 ```
 - võib olla vaja mõõtmine lisada järjendisse, mis salvestab ainult tingimusele vastavad mõõtmised
 ```python
@@ -196,7 +196,7 @@ print("Keskmine bmi oli " str(keskmine_bmi) + ", kõige madalam oli " + str(mada
 # Näidisprogrammi kood
 ```python
 def arvuta_kehamassi_indeks(kaal, pikkus_cm):
-	kehamassi_indeks = (pikkus_cm-100)**2 / kaal
+	kehamassi_indeks = kaal / ((pikkus_cm / 100) ** 2)
 	kehamassi_indeks = round(kehamassi_indeks, 2)
 	return kehamassi_indeks
 
@@ -219,7 +219,7 @@ for kaal in kaalumised:
 	mõõtmiste_järjend.append(praegune_kehamassi_indeks)
 	if praegune_kehamassi_indeks <= madal_bmi:
 		print("Kehamassi indeks on " + str(praegune_kehamassi_indeks) + ", see on madalam kui võiks olla.")
-		madalate_mõõtmiste_lugeja = madalate_mõõtmiste_lugeja + 1
+		madalate_kaalumiste_lugeja = madalate_kaalumiste_lugeja + 1
 		madalate_mõõtmiste_järjend.append(praegune_kehamassi_indeks)
 	else:
 		print("Kehamassi indeks on " + str(praegune_kehamassi_indeks) + ".")
@@ -231,7 +231,7 @@ while kaal >= 0:
     mõõtmiste_järjend.append(praegune_kehamassi_indeks)
     if praegune_kehamassi_indeks <= madal_bmi:
         print("Kehamassi indeks on " + str(praegune_kehamassi_indeks) + ", see on madalam kui võiks olla.")
-        madalate_mõõtmiste_lugeja = madalate_mõõtmiste_lugeja + 1
+        madalate_kaalumiste_lugeja = madalate_kaalumiste_lugeja + 1
         madalate_mõõtmiste_järjend.append(praegune_kehamassi_indeks)
     else:
         print("Kehamassi indeks on " + str(praegune_kehamassi_indeks) + ".")
