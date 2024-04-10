@@ -9,7 +9,7 @@ def arvuta_kehamassi_indeks(kaal, pikkus_cm):
 ``` 
 Siis vaja luua funktsiooni sisu. vaja luua muutuja või mitu muutujat ja argumente kasutades arvutada või muuta seda nii, et saab soovitud tulemuse
 ```python
- funktsiooni_muutuja1 = argument2 * 52 / argument1**2 # näiteks
+	funktsiooni_muutuja1 = argument2 * 52 / argument1**2 # näiteks
 ```
 - näiteks
 ```python
@@ -22,7 +22,7 @@ Siis vaja luua funktsiooni sisu. vaja luua muutuja või mitu muutujat ja argumen
 ``` 
 Siis vaja tagastada mingi väärtus ehk mis funktsioon välja annab või mida leiab
 ```python
-	return muutuja1
+	return funktsiooni_muutuja1
 ```
 - näiteks
 ```python
