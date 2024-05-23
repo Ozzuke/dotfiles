@@ -284,12 +284,16 @@
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>1</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.31557409422712018</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.1691741943359375</real>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
@@ -767,7 +771,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGS-NF-Regular 14</string>
+			<string>ComicCodeLigaturesNerdFont-Regular 14</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Option Key Sends</key>
