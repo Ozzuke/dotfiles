@@ -416,6 +416,12 @@ sudo mdutil -E / > /dev/null
 # Miscellaneous                                                               #
 ###############################################################################
 
+# TextEdit open new blank window instead of file selection by default
+defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+
+# Spacing between menu bar icons
+defaults -currentHost write -globalDomain NSStatusItemSpacing -int 8
+
 # Prevent Time Machine from prompting to use new hard drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
