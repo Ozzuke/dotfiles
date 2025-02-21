@@ -2,7 +2,7 @@
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install kitty zsh ranger ncdu tldr curl -y
+sudo apt install kitty .zshrc.d ranger ncdu tldr curl -y
 
 # install brave browser
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
