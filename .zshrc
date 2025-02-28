@@ -12,13 +12,15 @@ for config_file in $HOME/.zshrc.d/*.zsh; do
 done
 
 
+# MacOS specific
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  source $HOME/.zshrc.macos
+fi
 
-
-# functions
-
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
+# Linux specific
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+  source $HOME/.zshrc.linux
+fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -29,9 +31,3 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 #     eval "$(ngrok completion)"
 # fi
 
-# plugins
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# has to be at the end of .zshrc
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"

@@ -893,6 +893,8 @@
 	</array>
 	<key>NumberOfSpacesPerTab</key>
 	<integer>4</integer>
+	<key>OpenFileInNewWindows</key>
+	<true/>
 	<key>PasteSpecialRegex</key>
 	<string></string>
 	<key>PasteSpecialSubstitution</key>

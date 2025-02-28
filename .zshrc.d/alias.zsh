@@ -11,7 +11,7 @@ alias rd='source ranger' # Follow ranger directory (exiting ranger will return t
 # System
 alias du='du -h'
 alias h='history'
-alias grep='grep --color=auto'
+alias grep='grep -E --color=auto'
 alias vi='vim'
 alias reload='source ~/.zshrc'
 
