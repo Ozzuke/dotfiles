@@ -4,6 +4,13 @@ md() {
 }
 
 
+# Git add all, commit with message, push to origin
+gcp() {
+    git add -A
+    git commit -m "$1"
+    git push
+}
+
 ### Python venv functions ###
 
 # Create and activate a new venv, install requirements if present
