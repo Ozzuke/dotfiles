@@ -43,3 +43,6 @@ alias gaa='git add -A'
 alias gcm='git commit -m'
 alias gp='git push'
 alias gl='git pull'
+
+# Other
+alias nk-ssh='ssh root@nk.inpropartner.ee'
