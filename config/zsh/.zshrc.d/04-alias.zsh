@@ -2,7 +2,6 @@
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias la='ls -lAh --color=auto'
 alias mkdir='mkdir -p'                # Create parent directories if they don't exist
 alias path='echo $PATH | tr ":" "\n"' # List all directories in PATH
 alias rr=ranger
@@ -11,7 +10,6 @@ alias rd='source ranger' # Follow ranger directory (exiting ranger will return t
 # System
 alias du='du -h'
 alias h='history'
-alias grep='grep -E --color=auto'
 alias vi='vim'
 alias reload='source ~/.zshrc'
 

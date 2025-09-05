@@ -1,9 +1,0 @@
-  test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-  source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
-
-  # plugins
-  source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-  # has to be at the end of .zshrc
-  source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-  export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
